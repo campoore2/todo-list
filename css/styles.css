@@ -9,4 +9,5 @@ body {
 }
 #result {
   font-family: monospace;
+  list-style-position: inside;
 }

@@ -12,18 +12,15 @@ $(document).ready(function() {
     var inputteditem2 = $("#item2").val();
     var inputteditem3 = $("#item3").val();
     var inputteditem4 = $("#item4").val();
-    var hide = ("item1", "item2", "item3", "item4")
-
 
     var newToDoItems = new toDoItems(inputteditem1, inputteditem2, inputteditem3 ,inputteditem4);
 
-    $("#thingsToDo").append("<li class='item1'>" + newToDoItems.item1 + "</li>");
+    $("#thingsToDo").append("<li class='item1'>" + newToDoItems.item1 +  "</li>");
     $("#thingsToDo").append("<li class='item2'>" + newToDoItems.item2 + "</li>");
     $("#thingsToDo").append("<li class='item3'>" + newToDoItems.item3 + "</li>");
     $("#thingsToDo").append("<li class='item4'>" + newToDoItems.item4 + "</li>");
 
     $("#thingsToDo").submit(function(){
-      debugger;
       $("#result").show();
 
       $(".item1").text(newToDoItems.item1);
