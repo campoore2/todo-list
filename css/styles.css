@@ -1,0 +1,12 @@
+#pageheader{
+  font-family: monospace;
+  padding-bottom: 20px;
+}
+body {
+  background-color: #39B8E3;
+  text-align: center;
+  float: left;
+}
+#result {
+  font-family: monospace;
+}

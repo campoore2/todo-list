@@ -12,6 +12,7 @@ $(document).ready(function() {
     var inputteditem2 = $("#item2").val();
     var inputteditem3 = $("#item3").val();
     var inputteditem4 = $("#item4").val();
+    var hide = ("item1", "item2", "item3", "item4")
 
 
     var newToDoItems = new toDoItems(inputteditem1, inputteditem2, inputteditem3 ,inputteditem4);
